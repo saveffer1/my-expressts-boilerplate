@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Base Options: */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "sourceMap": true,
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitAny": true,
+
+    /* Transpiling with Babel: */
+    "declaration": true,
+    "module": "commonjs",
+    "outDir": "dist",
+
+    /* NOT transpiling with TypeScript: */
+    "noEmit": true,
+  },
+  "include": ["src", "test"],
+  "exclude": ["node_modules"]
+}
